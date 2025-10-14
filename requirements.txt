@@ -1,18 +1,23 @@
-pylint==3.2.7
-astroid==3.2.4
-colorama==0.4.6
-coverage==7.5.0
-dill==0.3.8
-exceptiongroup==1.2.0
-iniconfig==2.0.0
-isort==6.1.0
-mccabe==0.7.0
-packaging==23.2
-platformdirs==3.10.0
-pluggy==1.3.0
-Pygments==2.17.2
-pytest==8.3.2
-pytest-cov==4.1.0
-tomli==2.0.1
-tomlkit==0.13.0
-typing_extensions==4.12.2
+# Dev and linting
+pylint
+astroid
+isort
+colorama
+mccabe
+platformdirs
+tomlkit
+typing_extensions
+
+# Testing and coverage
+pytest
+pytest-cov
+coverage
+exceptiongroup
+iniconfig
+pluggy
+tomli
+
+# Utilities
+packaging
+Pygments
+dill
