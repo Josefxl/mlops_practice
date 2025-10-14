@@ -1,5 +1,5 @@
 from hello import mult
 
-def test_add():
-	assert add(2, 6) == 12
+def test_mult():
+	assert mult(2, 6) == 12
     
